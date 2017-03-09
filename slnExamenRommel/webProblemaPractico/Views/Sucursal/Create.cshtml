@@ -1,0 +1,48 @@
+﻿@model BeExamen.sucursal
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron row">
+    <br />
+    <div class="col-md-8">
+       <h3>Nueva Sucursal</h3> 
+    </div>
+</div>
+@using (Html.BeginForm("Create", "Sucursal", FormMethod.Post, new { id = "form-sucursal" }))
+{
+    <div class="jumbotron row">
+        <br />
+        <div class="col-md-12">
+            <div class="col-md-1">Banco</div>
+            @*<div class="col-md-6">@Html.DropDownList("iddepartamento", null, "SELECCIONE", new { @class = "form-control", @value = "0" })</div>*@
+            <div class="col-md-4">@Html.DropDownList("idbanco", new SelectList(ViewBag.bancos, "Value", "Text"), "Seleccione", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.idbanco)
+            </div>
+        </div>
+        <div class="col-md-8">
+        </div>
+    </div>
+
+    @Html.HiddenFor(x => x.id)
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                Descripción
+            @Html.TextBoxFor(x => x.nombre, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                Dirección
+            @Html.TextBoxFor(x => x.direccion, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+    <div class="text-right">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

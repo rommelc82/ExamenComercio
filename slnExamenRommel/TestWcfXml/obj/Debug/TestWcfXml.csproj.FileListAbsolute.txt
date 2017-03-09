@@ -1,0 +1,8 @@
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\bin\Debug\TestWcfXml.exe.config
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\bin\Debug\TestWcfXml.exe
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\bin\Debug\TestWcfXml.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\obj\Debug\TestWcfXml.Form1.resources
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\obj\Debug\TestWcfXml.Properties.Resources.resources
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\obj\Debug\TestWcfXml.csproj.GenerateResource.Cache
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\obj\Debug\TestWcfXml.exe
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\TestWcfXml\obj\Debug\TestWcfXml.pdb

@@ -1,0 +1,35 @@
+﻿@model BeExamen.banco
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron row">
+    <br />
+    <div class="col-md-8">
+       <h3>Nuevo Banco</h3>
+    </div>
+</div>
+@using (Html.BeginForm("Create", "Banco", FormMethod.Post, new { id = "form-banco" }))
+{
+    @Html.HiddenFor(x => x.id)
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                Descripción
+            @Html.TextBoxFor(x => x.nombre, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                Dirección
+            @Html.TextBoxFor(x => x.direccion, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+    <div class="text-right">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

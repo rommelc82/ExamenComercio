@@ -1,0 +1,4 @@
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjChangeString\obj\Debug\prjChangeString.exe
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjChangeString\obj\Debug\prjChangeString.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjChangeString\bin\Debug\prjChangeString.exe
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjChangeString\bin\Debug\prjChangeString.pdb

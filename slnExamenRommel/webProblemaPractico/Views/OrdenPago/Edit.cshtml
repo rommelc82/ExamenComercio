@@ -1,0 +1,59 @@
+﻿@model BeExamen.ordenpago
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron row">
+    <br />
+    <div class="col-md-8">
+        <h3>Editar ordenpago N° @ViewBag.id</h3>
+    </div>
+</div>
+@using (Html.BeginForm("Edit", "OrdenPago", FormMethod.Post, new { id = "form-banco" }))
+{
+    @Html.HiddenFor(x => x.id)
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                Banco
+                @Html.TextBoxFor(x => x.sucursal.banco.nombre, new { @class = "form-control", @readonly = "readonly" })
+                @Html.ValidationMessageFor(model => model.monto)
+            </div>
+            <div class="form-group">
+                Sucursal
+                @Html.TextBoxFor(x => x.sucursal.nombre, new { @class = "form-control", @readonly = "readonly" })
+                @Html.ValidationMessageFor(model => model.monto)
+            </div>
+            <div class="form-group">
+                Monto
+                @Html.TextBoxFor(x => x.monto, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.monto)
+            </div>
+            <div class="form-group">
+                Moneda
+                @{
+    var moneda = new SelectList(new[]
+                {
+                    new SelectListItem{ Value = "SOL", Text = "SOL" },
+                    new SelectListItem{ Value = "DOLAR", Text = "DOLAR" }
+                }, "Value", "Text");
+                }
+                @Html.DropDownList("moneda", moneda, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                Estado
+                @Html.DropDownList("estado", null, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.estado)
+            </div>
+        </div>
+    </div>
+    <div class="text-right">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

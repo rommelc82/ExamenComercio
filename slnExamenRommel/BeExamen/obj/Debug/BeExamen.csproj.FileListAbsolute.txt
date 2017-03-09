@@ -1,0 +1,9 @@
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\BeExamen.dll.config
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\BeExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\BeExamen.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\EntityFramework.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\EntityFramework.xml
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\obj\Debug\BeExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\BeExamen\obj\Debug\BeExamen.pdb

@@ -1,0 +1,11 @@
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\WcfXml.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\WcfXml.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\BeExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\DaExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\EntityFramework.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\BeExamen.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\DaExamen.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\bin\EntityFramework.xml
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\obj\Debug\WcfXml.csprojResolveAssemblyReference.cache
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\obj\Debug\WcfXml.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\WcfXml\obj\Debug\WcfXml.pdb

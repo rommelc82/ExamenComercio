@@ -1,0 +1,67 @@
+﻿@model BeExamen.ordenpago
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Create", "OrdenPago", FormMethod.Get))
+{
+    <div class="jumbotron row">
+        <br />
+        <div class="col-md-8">
+            <h3>Nueva órden de Pago</h3>
+        </div>
+    </div>
+    <div class="jumbotron row">
+        <div class="col-md-8">
+            <div class="col-md-1">Bancos</div>
+            <div class="col-md-6">@Html.DropDownList("idbanco", new SelectList(ViewBag.bancos, "Value", "Text", "ViewBag.bancos"), "Seleccione", new { onchange = "form.submit();", @class = "form-control" })</div>
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("Create", "OrdenPago", FormMethod.Post, new { id = "form-OrdenPago" }))
+{
+    <div class="jumbotron row">
+        <div class="col-md-12">
+            <div class="col-md-1">Sucursal</div>
+            <div class="col-md-4">@Html.DropDownList("idsucursal", new SelectList(ViewBag.sucursales, "id", "nombre"), "Seleccione", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.idsucursal)
+            </div>
+        </div>
+    </div>
+
+    @Html.HiddenFor(x => x.id)
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                Monto
+            @Html.TextBoxFor(x => x.monto, new { @class = "form-control" })
+            </div>
+            <div class="col-md-1">
+                Moneda
+            </div>
+            <div class="col-md-3">
+                @{
+    var moneda = new SelectList(new[]
+                {
+                    new SelectListItem{ Value = "SOL", Text = "SOL" },
+                    new SelectListItem{ Value = "DOLAR", Text = "DOLAR" }
+                }, "Value", "Text");
+                }
+                @Html.DropDownList("moneda", moneda, new { @class = "form-control" })
+            </div>
+            <div class="col-md-1">Estado</div>
+            <div class="col-md-4">@Html.DropDownList("estado", new SelectList(ViewBag.estados, "id", "descripcion"), "Seleccione", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.estado)
+            </div>
+        </div>
+    </div>
+    <div class="text-right">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

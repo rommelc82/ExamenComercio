@@ -1,0 +1,9 @@
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\bin\Debug\DaExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\bin\Debug\DaExamen.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\bin\Debug\BeExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\bin\Debug\EntityFramework.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\bin\Debug\BeExamen.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\bin\Debug\EntityFramework.xml
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\obj\Debug\DaExamen.csprojResolveAssemblyReference.cache
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\obj\Debug\DaExamen.dll
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\DaExamen\obj\Debug\DaExamen.pdb

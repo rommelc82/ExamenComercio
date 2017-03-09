@@ -1,0 +1,4 @@
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjProblema02\bin\Debug\prjProblema02.exe
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjProblema02\bin\Debug\prjProblema02.pdb
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjProblema02\obj\Debug\prjProblema02.exe
+C:\Users\Rommel\Documents\Visual Studio 2012\Projects\slnExamenRommel\prjProblema02\obj\Debug\prjProblema02.pdb
